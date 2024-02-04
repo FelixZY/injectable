@@ -205,10 +205,10 @@ packages:
     dependency: transitive
     description:
       name: get_it
-      sha256: "529de303c739fca98cd7ece5fca500d8ff89649f1bb4b4e94fb20954abcd7468"
+      sha256: e6017ce7fdeaf218dc51a100344d8cb70134b80e28b760f8bb23c242437bafd7
       url: "https://pub.dev"
     source: hosted
-    version: "7.6.0"
+    version: "7.6.7"
   glob:
     dependency: "direct main"
     description:
@@ -252,10 +252,12 @@ packages:
   injectable:
     dependency: "direct main"
     description:
-      path: "../injectable"
-      relative: true
-    source: path
-    version: "2.3.0"
+      path: injectable
+      ref: fix-singleton-environment-filter
+      resolved-ref: ae114533f96ba4302333cc262af1e730c7653741
+      url: "https://github.com/FelixZY/injectable.git"
+    source: git
+    version: "2.3.1"
   io:
     dependency: transitive
     description:
